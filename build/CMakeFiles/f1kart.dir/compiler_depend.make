@@ -5,8 +5,10 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/algorithm \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -50,15 +52,18 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_numeric.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
@@ -98,6 +103,7 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/random \
@@ -277,8 +283,6 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
@@ -333,8 +337,6 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
@@ -381,11 +383,11 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/linux/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/linux/close_range.h:
 
-/usr/include/c++/13/bits/stl_numeric.h:
+/usr/include/features.h:
 
-/usr/include/c++/13/bits/stl_uninitialized.h:
+/usr/include/ctype.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
@@ -406,6 +408,10 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/13/bits/random.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
 
@@ -431,7 +437,19 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -443,19 +461,11 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/c++/13/bits/allocator.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/13/tr1/special_function_util.h:
-
 /usr/include/c++/13/bits/move.h:
 
-/usr/include/linux/close_range.h:
+/usr/include/errno.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/c++/13/cwctype:
 
@@ -469,19 +479,15 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/cwchar:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/bits/exception.h:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/13/string_view:
 
 /usr/include/alloca.h:
 
@@ -498,8 +504,6 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
-
-/usr/include/features.h:
 
 /usr/include/c++/13/backward/binders.h:
 
@@ -523,6 +527,10 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /home/ang/openmp/src/main.cpp:
 
+/usr/include/c++/13/algorithm:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/13/bits/localefwd.h:
@@ -541,6 +549,18 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/13/random:
+
 /usr/include/c++/13/string:
 
 /usr/include/c++/13/bits/istream.tcc:
@@ -551,6 +571,14 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
+/usr/include/c++/13/new:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
@@ -559,11 +587,17 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/ios:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/13/bits/locale_classes.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/ctype.h:
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/c++/13/bits/stringfwd.h:
 
@@ -605,6 +639,8 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
+/usr/include/c++/13/bits/stl_algo.h:
+
 /usr/include/c++/13/cstddef:
 
 /usr/include/c++/13/vector:
@@ -627,10 +663,6 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/tuple:
 
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
@@ -647,15 +679,7 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/istream:
 
-/usr/include/c++/13/string_view:
-
-/usr/include/features-time64.h:
-
 /usr/include/c++/13/limits:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/new:
 
 /usr/include/c++/13/numeric:
 
@@ -665,9 +689,7 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 
 /usr/include/c++/13/pstl/execution_defs.h:
 
-/usr/include/c++/13/random:
-
-/usr/include/c++/13/pstl/glue_numeric_defs.h:
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -712,7 +734,3 @@ CMakeFiles/f1kart.dir/src/main.cpp.o: /home/ang/openmp/src/main.cpp \
 /usr/include/c++/13/ostream:
 
 /usr/include/c++/13/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/endian.h:
