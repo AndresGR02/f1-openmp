@@ -1,3 +1,0 @@
-/home/ang/openmp/build/CMakeFiles/f1kart.dir
-/home/ang/openmp/build/CMakeFiles/edit_cache.dir
-/home/ang/openmp/build/CMakeFiles/rebuild_cache.dir

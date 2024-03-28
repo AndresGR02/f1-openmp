@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/f1kart.dir/src/main.cpp.o -o f1kart  /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 
