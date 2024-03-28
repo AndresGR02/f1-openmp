@@ -99,7 +99,22 @@ void printStartingGrid(std::vector<Player>& players, int iteration) {
     for (const auto& lane : track) {
         std::cout <<  color << "▄▀▄-" << lane << "\e[0m" << std::endl;
     }
-    std::cout <<  color << "╚═╩════════════════════════════════════════════════════════════════════════════════════════════════════════════\e[0m" << std::endl;
+    std::cout <<  color << "╚═╩═══════════════════════════════════════════════════V════════════════════════════════════════════════════════\e[0m" << std::endl;
+
+    std::string bgColor = "\e[1;101m";
+    if (iteration == 1) {
+        bgColor = "\e[1;102m";
+    } else if (iteration == 2) {
+        bgColor = "\033[1;103m";
+    }
+
+    std::cout << std::endl;
+    std::cout << "                              " << bgColor << "*******\e[0m              " << bgColor << "*******\e[0m              " << bgColor << "*******\e[0m           \n"
+                 "                            " << bgColor << "***********\e[0m          " << bgColor << "***********\e[0m          " << bgColor << "***********\e[0m         \n" 
+                 "                           " << bgColor << "*************\e[0m        " << bgColor << "*************\e[0m        " << bgColor << "*************\e[0m        \n" 
+                 "                           " << bgColor << "*************\e[0m        " << bgColor << "*************\e[0m        " << bgColor << "*************\e[0m        \n"
+                 "                            " << bgColor << "***********\e[0m          " << bgColor << "***********\e[0m          " << bgColor << "***********\e[0m         \n"
+                 "                              " << bgColor << "*******\e[0m              " << bgColor << "*******\e[0m              " << bgColor << "*******\e[0m           \n";
 
 }
 
